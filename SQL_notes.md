@@ -93,17 +93,17 @@ WHERE CustomerID BETWEEN 2 AND 10;`
 
 Operators in the WHERE Clause:
 
-Operator | Description
-:---:| :---
-= | Equal
-<>| Not equal, some versions use !=
-> | Greater than
-< | Less than
->=| Greater than or equal
-<=| Less than or equal
-BETWEEN| Between an **inclusive** range
-LIKE |Search for a pattern
-IN | To specify multiple possible values for a column 
+Index | Operator | Description
+--- | :---:| :---
+1|= | Equal
+2|<>| Not equal, some versions use !=
+3|>| Greater than
+4|< | Less than
+5|>=| Greater than or equal
+6|<=| Less than or equal
+7|BETWEEN| Between an **inclusive** range
+8|LIKE |Search for a pattern
+9|IN | To specify multiple possible values for a column 
 
 
 
